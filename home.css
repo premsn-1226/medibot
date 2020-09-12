@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+ }
+ body{
+     font-family : 'Roboto', sans-serif;
+ }
+ .nav-back{
+     background: rgba(17,219,207,0.8);
+ }
+ .navbar-brand{
+     color : #000;
+     font-weight: bold;
+ }
+ .navbar-brand:hover{
+     color : #fff;
+ }
+ .nav-link{
+     color : #000;
+ }
+ .nav-link:hover{
+     color : #fff;
+ }
+ .navbar-toggler{
+     outline: none!important;
+ }
+ 
+ /*hero section*/
+ #hero{
+     width : 100%;
+     height: 100vh;
+     background: url(https://cdn.glitch.com/184b91c5-aeae-4219-92b7-3e8f64a0a7ec%2Fhero.jpg?v=1599904742817) center;
+     background-size: cover;
+ }
+ #hero .container{
+     padding-top: 80px;
+ }
+ #hero:before{
+     content : '';
+     background: rgba(0,0,0,0.6);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     top : 0;
+     height : 100vh;
+ }
+ #hero h1{
+     margin : 0 0 10px 0;
+     font-size: 48px;
+     font-weight: bold;
+     line-height: 56px;
+     color : #fff;
+     letter-spacing: 1px;
+ }
+ #hero h2{
+     color : lightsalmon;
+     margin-bottom: 40px;
+     font-size: 15px;
+     font-weight: light;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+ }
+ .main-btn{
+     font-weight: bold;
+     font-size: 16px;
+     letter-spacing: 1px;
+     display: inline-block;
+     padding: 8px 28px;
+     border-radius: 50px;
+     transition: 0.5s;
+     margin : 10px;
+     border : 2px solid #fff;
+     color : #11dbcf;
+ }
+ .main-btn:hover{
+     background: #11dbcf;
+     border: 2px solid #11dbcf;
+     color : #fff;
+     text-decoration: none;
+ }
+ /*services*/
+ .service{
+     text-align : center;
+     padding : 50px 20px 20px 20px;
+     background : rgba(17,219,207,0.8);
+ }
+ .service .icon{
+     margin : 0 auto;
+     width : 64px;
+     height: 64px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position : relative;
+     background: #fff;
+     border-radius : 50px;
+ }
+ .service .icon i{
+     font-size: 30px;
+     line-height: 1;
+     position: relative;
+     color : #47aeff;
+ }
+ .service h4{
+     margin : 10px 0 15px 0;
+     font-weight : bold;
+     font-size: 22px;
+ }
+ .service p{
+     line-height : 24px;
+     font-size : 14px;
+     margin-bottom : 0;
+ }
+ /*about section*/
+ .about-section {
+     margin-top: 5rem;
+     margin-bottom: 5rem;
+ }
+ .head{
+     margin-top: 50px;
+     margin-bottom: -50px;
+ }
+ .about-heading{
+     text-transform: uppercase;
+ }
+ .about-heading-upper{
+     display: block;
+     font-size: 1rem;
+     font-weight: bold;
+ }
+ .about-heading-upper{
+     display: block;
+     font-size: 38px;
+     font-weight: light;
+ }
+ .bg-faded{
+     background: rgba(17,219,207,0.8);
+ }
+ .about .about-img{
+     height : 80vh;
+ }
+ .about-button .btn-color{
+     background: #03a59a;
+     color : #fff;
+     font-weight: bold;
+     border: none;
+ }
+ .about-button .btn-color:hover{
+     background:  #47aeff;
+     color : #fff;
+     font-weight: bold;
+ }
+ .about{
+     position: relative;
+ }
+ @media screen and (min-width:992px){
+     .about .about-img{
+         width : 70%;
+         height : 80vh;
+         float : right;
+     }
+     .about .about-text{
+         left : 0;
+         width : 60%;
+         margin-top: 2rem;
+         position : absolute;
+     }
+     .about .about-text .about-button{
+         width : 100%;
+         left : 0;
+         position: absolute;
+         bottom : 1rem;
+     }
+ }
+ @media screen and (min-width : 1200px){
+     .about .about-text{
+         width : 45%;
+        
+     }
+ }
+ /*contact*/
+ .contact-box{
+     color: #000;
+     text-align: center;
+     box-shadow: rgba(17,219,207,0.5);
+     padding : 20px 0 30px 0;
+     background: #11dbcf;
+ }
+ .contact-box i{
+     font-size: 32px;
+     color : #fff;
+     border-radius: 50%;
+ }
+ .contact-box h3{
+     font-size: 20px;
+     color: #000;
+     font-weight: bold;
+     margin : 10px 0;
+ }
+ .contact-box p{
+     padding :0;
+     line-height: 24px;
+     font-size: 14px;
+     margin-bottom: 0; 
+ }
+ .contact button{
+     background: #11dbcf;
+     color : #fff;
+     border-radius : 10px;
+     padding : 10px;
+ }
+ .contact button:hover{
+     background : #00d9ff;
+     color : #fff;
+ }
+ /*footer*/
+ .footer{
+     text-align: center;
+     font-size: 15px;
+     background: rgba(17,219,207,0.8);
+ }
+ .footer .btn-back{
+     background: #fff;
+     color : #00d9ff;
+ }
+ .footer .text{
+     color : #000;
+ }
